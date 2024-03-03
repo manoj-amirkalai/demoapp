@@ -1,0 +1,338 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+hr {
+  height: 55px;
+  width: 100vw;
+  background-color: rgb(138, 136, 136);
+}
+.sigin {
+  display: flex;
+  gap: 10%;
+  width: 20%;
+  margin: 3% 2% 2% 2%;
+}
+img {
+  margin: 20% 10% 10% 40%;
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.621);
+}
+.display {
+  background-image: url(../../images/header-image.png);
+  height: 90vh;
+  color: white;
+}
+.content {
+  height: 73vh;
+  position: relative;
+  text-align: center;
+}
+.contentbox {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+.heading {
+  font-size: 300%;
+}
+.paragraph {
+  font-size: 150%;
+}
+.inputbox {
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+input {
+  padding: 1%;
+  width: 50%;
+  border: 2p1x black;
+  background: rgba(0, 0, 0, 0.371);
+  color: white;
+}
+
+button {
+  background-color: rgb(230, 57, 57);
+  cursor: pointer;
+}
+.get {
+  padding: 2%;
+  color: white;
+}
+.sign {
+  padding: 2%;
+  color: white;
+  width: 25%;
+}
+select {
+  width: 30%;
+  padding: 2%;
+  background: transparent;
+  color: white;
+}
+.lang {
+  width: 30%;
+  color: white;
+  background-color: transparent;
+}
+
+.subject {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  height: 80vh;
+  margin-top: -3.9%;
+  margin-bottom: -2.5%;
+  color: white;
+  background-color: black;
+}
+.subject .pic {
+  width: 60%;
+}
+.para {
+  margin-left: 10%;
+}
+.fqa {
+  display: flex;
+  margin-top: -13px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+.fqa p {
+  width: 70%;
+  margin-top: -0.5%;
+  background-color: rgba(144, 140, 140, 0.344);
+  padding: 20px;
+}
+.fqa h1 {
+  font-size: 300%;
+}
+.inputboxs {
+  width: 50%;
+  display: flex;
+  gap: 1%;
+  margin-top: 1%;
+  margin-left: 16%;
+  margin-bottom: 4%;
+}
+.inputboxs button {
+  width: 20%;
+  padding: 1%;
+}
+span {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+.footer {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  margin-top: -3.5%;
+}
+.link {
+  margin: 5% 0 5% 12%;
+  display: flex;
+  gap: 5%;
+  flex-direction: column;
+}
+a {
+  margin-top: 5%;
+  color: rgb(122, 116, 116);
+}
+#answer,
+#answer1,
+#answer2,
+#answer3,
+#answer4,
+#answer5 {
+  margin-top: -0.9%;
+  width: 71.5%;
+  padding: 0.5%;
+  background-color: rgb(82, 80, 78);
+  display: none;
+}
+.ques {
+  position: relative;
+}
+
+@media screen and (max-width: 1300px) {
+  hr {
+    height: 45px;
+  }
+  .contentbox {
+    position: absolute;
+    left: 20%;
+  }
+  .link {
+    margin-left: 8%;
+  }
+  .fqa span {
+    font-size: 80%;
+  }
+  .subject {
+    height: 70vh;
+  }
+
+  .fqa h1 {
+    font-size: 200%;
+  }
+  .fqa .ques .answer {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  hr {
+    height: 35px;
+  }
+  .sigin {
+    margin-left: -20%;
+    width: 30%;
+  }
+  .logo {
+    margin-left: -10%;
+  }
+  .lang {
+    margin-left: -20%;
+  }
+  .contentbox {
+    left: 15%;
+    background-color: rgba(34, 33, 33, 0.208);
+  }
+
+  .contentbox .heading {
+    font-size: 200%;
+  }
+  .contentbox .paragraph {
+    font-size: 100%;
+  }
+  .display {
+    height: 80vh;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  hr {
+    height: 20px;
+  }
+  .subject {
+    height: 50vh;
+  }
+  .footer {
+    font-size: 50%;
+  }
+  .link {
+    margin-left: 7%;
+  }
+  .sigin {
+    margin-left: 10%;
+    width: 40%;
+  }
+  .logo {
+    margin-left: -15%;
+
+    width: 50%;
+  }
+  .lang {
+    margin-left: 25%;
+  }
+  .contentbox {
+    top: 10%;
+    left: 10%;
+  }
+  .contentbox .heading {
+    font-size: 150%;
+  }
+  .contentbox .paragraph {
+    font-size: 70%;
+  }
+  .display {
+    height: 60vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  hr {
+    height: 10px;
+  }
+  .header {
+    margin-top: -5%;
+  }
+  .lang {
+    padding: 3% 4% 3% 0;
+    width: 60%;
+    margin-left: 90px;
+  }
+  .sigin {
+    padding: 3% 6% 3% 0;
+    width: 60%;
+    margin-left: -105;
+  }
+  .contentbox {
+    top: 20%;
+    left: 12%;
+  }
+  .contentbox .heading {
+    font-size: 75%;
+  }
+  .contentbox .paragraph {
+    font-size: 50%;
+  }
+  button {
+    width: 30%;
+    padding: 0;
+  }
+  .display {
+    height: 50vh;
+  }
+  .display input,
+  .inputboxs input {
+    height: 0.5%;
+  }
+  .display .get {
+    font-size: 5%;
+    height: 1% !important;
+  }
+  .subject .para {
+    font-size: 40%;
+  }
+  .subject {
+    height: 40vh;
+  }
+  .fqa h1 {
+    font-size: 100%;
+  }
+  .fqa p {
+    padding: 1%;
+    font-size: 50%;
+  }
+  .fqa span {
+    padding: 1%;
+    font-size: 50%;
+  }
+  .link {
+    font-size: 50%;
+  }
+  .get {
+    padding: 0;
+    margin-left: 10px;
+    font-size: 5px;
+  }
+  .inputboxs {
+    margin-left: 20px;
+  }
+  .sigin {
+    width: 60%;
+  }
+  .sigin button {
+    padding: 2px;
+  }
+  .inputbox .get {
+    padding: 7px;
+    margin-left: -2px;
+  }
+}
